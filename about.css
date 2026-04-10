@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #111;
+    color: #cdcdcd;
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+    animation: iphoneFade 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+@keyframes iphoneFade {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+  h2, h3 {
+    color: #c4d6ca;
+    text-align: center;
+  }
+
+  .navbar {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgb(34, 34, 34);
+  color: #121212;
+  font-family: sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: gray;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.about-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(122, 124, 123, 0.783);
+}
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #c4d6ca;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(122, 124, 123, 0.783);
+  }
+
+h2 {
+    color: #c4d6ca;
+    text-align: center;
+    font-size: 42px; 
+    margin-top: 50px;
+}
+
+.about {
+    width: 45%;         
+    margin: 30px auto;   
+    padding: 25px;
+    border-radius: 10px;
+    background-color:#1a1a1a;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 4px 12px rgba(122, 124, 123, 0.783);
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+    animation: iphoneFade 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.about p {
+    color: #c4d6ca;
+    font-size: 18px;
+    line-height: 1.6;
+}

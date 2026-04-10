@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #111;
+    color: #e3e7dd;
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+    animation: iphoneFade 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards
+  }
+
+  @keyframes iphoneFade {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+  h2, h3 {
+    color: #c4d6ca;
+    text-align: center;
+  }
+
+  .navbar {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgb(34, 34, 34);
+  color: #121212;
+  font-family: sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: gray;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+  form {
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(122, 124, 123, 0.783);
+  }
+
+  input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #111;
+    color: rgb(199, 199, 199);
+  }
+
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: #e4e4e4;
+    box-shadow: 0 0 8px #bdbdbd;
+  }
+
+  button {
+    background: #9ba59f;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100%;
+  }
+
+  button:hover {
+    background: #c4c4c4;
+    transform: scale(1.05);
+  }
+
+  .contact-image {
+   align-items: center;
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(122, 124, 123, 0.783);
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #c4d6ca;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(122, 124, 123, 0.783);
+  }
